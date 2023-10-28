@@ -120,7 +120,7 @@ namespace Lab02_LauMinhTam_LTWindows
             int min = int.MaxValue;
             for (int i = 0; i < n; i++)
             {
-                if (i % 2 == 0 && a[i] % 2 != 0)
+                if (i % 2 == 0 && a[i] % 2 != 0) //4543543543543543543543543
                 {
                     Console.Write("{0} ", a[i]); // các phần tử lẻ ở vị trí chẵn
                 }
